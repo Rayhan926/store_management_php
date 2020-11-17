@@ -9,5 +9,5 @@ Password: 12345
 
 Log in as an User
 ---------------------------
-Username: user
+Username: amrna
 Password: 12345
