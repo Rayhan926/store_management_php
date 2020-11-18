@@ -6,8 +6,7 @@
   require_once '../config/auth.php';
 
   if (isset($_POST["otp_title1"]) && isset($_POST["otp_title2"]) && isset($_POST["otp_email_is"]) && isset($_POST["otp_code"])) {
-    echo 'yes';
-    /*
+
 
     $otp_title1 = $_POST["otp_title1"];
     $otp_title2 = $_POST["otp_title2"];
@@ -39,8 +38,6 @@
       }else{
         echo "no";
       }
-
-      */
 
   }
   
