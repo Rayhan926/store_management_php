@@ -1,0 +1,13 @@
+
+Log in as an Admin
+---------------------------
+Username: saymon
+Password: 12345
+
+
+
+
+Log in as an User
+---------------------------
+Username: user
+Password: 12345

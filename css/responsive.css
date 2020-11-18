@@ -1,0 +1,343 @@
+@media only screen and (max-width: 850px) {
+  .all_clients_list_body.mobile_view
+    .single_client_list:hover
+    .cstommer_block_tol_wrap {
+    display: block;
+  }
+  .client_profile_view_wrap.toggle_all_mobile .client_profile_wrap {
+    padding: 0 !important;
+    width: 0 !important;
+    border-right: none !important;
+  }
+  .client_profile_view_wrap.toggle_all_mobile .client_due_list_wrap {
+    width: 100% !important;
+  }
+  .client_profile_view_wrap.toggle_all_mobile .profile_part_on_off i {
+    transform: rotateY(-180deg);
+  }
+  .suggest_input_wrap {
+    width: 100%;
+  }
+  .all_clients_list_body.mobile_view .mob_view_more_li {
+    display: block;
+  }
+  .all_clients_list_body.mobile_view .mobile_view_more_info_wrap {
+    border-right: 1px solid var(--brdr);
+  }
+  .login_wrap .login_flex_wrap {
+    width: 80%;
+    /* flex-direction: column; */
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    flex-direction: column-reverse;
+  }
+  .login_about_us_wrap {
+    width: 100%;
+  }
+  .login_form_wrap {
+    align-self: center;
+    width: 100%;
+  }
+  .all_in_one_report_wrap {
+    flex-wrap: wrap;
+  }
+  .all_in_one_report_wrap .single_report_box {
+    width: 48.5%;
+    margin-bottom: 2rem;
+  }
+  .all_in_one_report_wrap .single_report_box:nth-child(3),
+  .all_in_one_report_wrap .single_report_box:nth-child(4) {
+    margin-bottom: 0;
+  }
+  .clients_search_box {
+    width: 30rem;
+  }
+  .layout_option_box .layout_box {
+    display: none;
+  }
+  .all_clients_list_header {
+    display: none;
+  }
+  .all_clients_list_body.mobile_view .cstm_check_mark {
+    top: 0 !important;
+    right: auto !important;
+    left: 0 !important;
+  }
+  .mobile_view .brbd_selected {
+    border: 2px solid var(--bg_primary) !important;
+  }
+
+  .all_clients_list_body {
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    padding: 0.6rem 0 0 0.6rem;
+    flex-wrap: wrap;
+    min-height: 50vh;
+    max-height: 95vh;
+  }
+
+  .all_clients_list_body.mobile_view .single_client_list {
+    display: block;
+    width: 100%;
+    border: 1px solid var(--brdr);
+    grid-template-columns: unset;
+    padding: 2rem 1rem;
+  }
+
+  .all_clients_list_body.mobile_view .cstm_col {
+    width: 33.33%;
+    padding: 0.6rem;
+  }
+  .all_clients_list_body.mobile_view .client_details_img_name {
+    flex-direction: column;
+  }
+  .all_clients_list_body.mobile_view .client_details_img_name .client_list_img {
+    width: 11rem;
+    height: 11rem;
+  }
+  .all_clients_list_body.mobile_view .client_details_img_name .client_info h4 {
+    font-size: var(--f_18);
+    text-align: center;
+    margin-top: 1.2rem;
+  }
+  .all_clients_list_body.mobile_view .client_details_img_name .client_info p {
+    font-size: var(--f_14);
+    text-align: center;
+  }
+  .all_clients_list_body.mobile_view .single_client_more_actions_wrap {
+    top: 2rem;
+  }
+  .all_clients_list_body.mobile_view
+    .single_client_more_actions_wrap
+    .single_client_more_action_ul {
+    right: 5px;
+  }
+  .all_clients_list_body.mobile_view .h_grid,
+  .all_clients_list_body .h_list {
+    display: none !important;
+  }
+  .all_clients_list_body.mobile_view .h_list {
+    display: block !important;
+  }
+  .client_profile_wrap {
+    width: 60%;
+  }
+  .client_due_list_wrap {
+    width: 40%;
+  }
+  /* .client_due_list_wrap_body{
+  height: 31rem;
+} */
+  .toggle_bar {
+    opacity: 1;
+    pointer-events: all;
+  }
+  .client_due_list_add_form input {
+    width: 100%;
+    margin-bottom: 1.2rem;
+    padding: 0.8rem 0.5rem 0.8rem 1rem;
+  }
+  .client_due_list_add_form button {
+    width: 100%;
+    padding: 0.8rem 0.5rem 0.8rem 1rem;
+  }
+  .pay_formm_wrap {
+    display: block;
+    grid-template-columns: unset;
+  }
+  .pay_formm_wrap .payment_box {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .pay_formm_wrap .payment_box input {
+    padding: 0.8rem 0.5rem 0.8rem 1rem;
+  }
+  .payment_box_submit {
+    padding-top: 0;
+    margin-top: 1.5rem;
+  }
+  .payment_box_submit button {
+    width: 100%;
+    padding: 0.8rem 0.5rem 0.8rem 1rem;
+  }
+
+  .client_due_list_wrap_heading {
+    padding-left: 2rem;
+  }
+
+  .all_clients_list_body.mobile_view .cstommer_block_tol_wrap {
+    border-radius: 0;
+    top: -6px;
+    left: 11px;
+    transform: translateY(0);
+  }
+  .all_clients_list_body.mobile_view .cstommer_block_tol_wrap::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: -4.5px;
+    border-top: 6px solid transparent;
+    border-right: 5px solid #960000;
+    transform: rotate(0deg);
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .all_clients_list_body {
+    border: none;
+  }
+  .cstm_col {
+    padding: 0 !important;
+  }
+  .all_clients_list_body.mobile_view
+    .cstm_col:nth-of-type(2n + 1)
+    .single_client_list {
+    border-left: none;
+  }
+  .all_clients_list_body.mobile_view
+    .cstm_col:nth-of-type(n + 2)
+    .single_client_list {
+    border-bottom: none;
+  }
+  .all_clients_list_body.mobile_view .cstm_col {
+    width: 50%;
+    padding: 0.6rem;
+  }
+  .all_clients_list_body.mobile_view .cstm_col:last-child,
+  .all_clients_list_body.mobile_view .cstm_col:nth-last-child(2) {
+    border-bottom: 1px solid var(--brdr);
+  }
+  .cstm_container {
+    max-width: 94%;
+  }
+  .single_client_list > div span {
+    font-size: var(--f_13);
+  }
+  .cstm_confirm .confirm_wrap {
+    width: 30rem;
+  }
+  .login_wrap .login_flex_wrap {
+    width: 90%;
+  }
+  .all_in_one_report_wrap .single_report_box {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .all_in_one_report_wrap .single_report_box:nth-child(3) {
+    margin-bottom: 2rem;
+  }
+  .all_clients_layout_wrap {
+    display: block;
+  }
+  .all_clients_layout_wrap h3 {
+    margin-bottom: 1.5rem;
+  }
+  .clients_search_box {
+    width: 100%;
+    margin-right: 0;
+  }
+  .client_due_list_wrap_three_dot_wrap i.flex_all {
+    font-size: 1.3rem;
+  }
+  .client_due_list_wrap {
+    padding-right: 0;
+    padding-left: 0;
+    width: 40%;
+  }
+  .blur_div {
+    padding: 0 1rem 0 4rem;
+  }
+  /* .client_due_list_wrap_heading{
+    opacity: 0;
+    pointer-events: none;
+  } */
+  .client_due_list_wrap_header span {
+    font-size: var(--f_16);
+  }
+  .product_name span,
+  .product_price span {
+    font-size: var(--f_14);
+  }
+  .notifications_wrap {
+    right: -3rem;
+  }
+  .client_due_list_wrap_search {
+    width: 22rem;
+  }
+  .client_due_list_wrap_filter_search,
+  .client_due_list_wrap_header {
+    border-left: none;
+    border-right: none;
+  }
+  .client_due_list_wrap_body {
+    border: none;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .client_profile_wrap {
+    width: 100%;
+  }
+  .client_due_list_wrap {
+    width: 0%;
+    overflow: hidden;
+  }
+  .profile_part_on_off {
+    right: 0;
+    border-radius: 0.3rem 0 0 0.3rem;
+  }
+  .client_profile_view_wrap.toggle_all .profile_part_on_off {
+    border-radius: 0 0.3rem 0.3rem 0;
+    right: -1.5rem;
+  }
+  .cstm_confirm .confirm_wrap {
+    width: 33rem;
+  }
+  .notifications_wrap {
+    right: -4.5rem;
+  }
+  .all_clients_list_body.mobile_view {
+    grid-template-columns: 100% !important;
+  }
+  .client_due_list_wrap_filter_search {
+    flex-direction: column;
+  }
+  .client_due_list_wrap_search {
+    margin-bottom: 1.2rem;
+  }
+  .client_due_list_wrap_search,
+  .client_due_list_wrap_filter,
+  .due_fiter_div span {
+    width: 100%;
+  }
+  .client_due_list_wrap_filter {
+    margin-bottom: 0.6rem;
+  }
+  .filter_dur_all_option_wrap {
+    width: 65%;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .all_clients_list_body.mobile_view .cstm_col {
+    width: 100%;
+    padding: 0.6rem;
+    border-bottom: none !important;
+    margin-bottom: 1.2rem;
+  }
+  .all_clients_list_body.mobile_view .cstm_col .single_client_list {
+    border: 1px solid var(--brdr) !important;
+  }
+
+  .cstm_confirm .confirm_wrap {
+    width: 90%;
+  }
+  .confirm_btn_wrap button.cncl_btn {
+    margin-bottom: 1rem;
+  }
+  .notifications_wrap {
+    width: 28rem !important;
+  }
+}
+
+/*INSERT INTO `users` (`id`, `user_name`, `user_phone`, `user_gender`, `user_address`, `user_username`, `user_password`, `user_token`, `user_image`, `user_joined`, `user_due_limit`, `user_due_limit_date`, `user_email`, `user_otp`, `user_action`, `user_last_pay`) VALUES (NULL, 'Kamran', '87979878978', 'male', 'Puran gaw', 'asf', 'cce7894515a51883a494529cb33f43fb', '04f55f2e645ff279e70b30c77b0c973e', '5f6ef7774c28a.jpg', '2020-09-26 01:10:31', '', '', '', '', 'unblock', ''); */
